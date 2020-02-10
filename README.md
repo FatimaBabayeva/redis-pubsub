@@ -3,7 +3,7 @@
 * **ms-redis-publisher** is a microservice to publish a message to a Redis topic
 * **ms-redis-subscriber** is a microservice to receive messages from a Redis topic
 
-##Steps: 
+## Steps: 
 
 * ### Run redis on your local machine
         docker run -d -p 6379:6379 redis
