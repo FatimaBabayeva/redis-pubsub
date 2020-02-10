@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url: jdbc:hsqldb:mem:consumer
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yml
+
+redis:
+  server:
+    urls: http://localhost:6379

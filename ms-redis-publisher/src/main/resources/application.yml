@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8080
+
+redis:
+  server:
+    urls: http://localhost:6379
